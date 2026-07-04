@@ -1,0 +1,1 @@
+import{A as t}from"./index-fVbVUyB-.js";function r(o){return t({url:"/booking/create",method:"post",data:o})}function i(o){return t({url:"/booking/list",method:"get",params:o})}function a(o){return t({url:`/booking/cancel/${o}`,method:"post"})}function u(o,n=3){return t({url:`/booking/pay/${o}`,method:"post",params:{paymentMethod:n}})}export{a,r as c,i as g,u as p};
